@@ -1,0 +1,24 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "description": "A REST API to check for disposable and invalid emails",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "validator",
+    "validate-email"
+  ],
+  "author": "fedeperin",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

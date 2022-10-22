@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+body {
+    background: #0d1017;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2,
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+code {
+    padding: 20px;
+    background: #161b21;
+    border-radius: 10px;
+    font-family: monospace;
+    margin: 20px 0;
+}
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+}
+
+.octo-body, .octo-arm {
+    color: #0d1017;
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0)
+    }
+
+    20%,
+    60% {
+        transform: rotate(-25deg)
+    }
+
+    40%,
+    80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}
